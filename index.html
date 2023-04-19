@@ -3,8 +3,15 @@
         <title>S1A-10</title>
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
         <style>
-            body{
+            html, body{
                 font-family: 'Bree Serif', Bree-serif;
+                height: 100%;
+                margin: 0;
+            }
+            .wrapper {
+                min-height: 100%;
+                display: flex;
+                flex-direction: column;
             }
             .ii{
                 display: block;
@@ -19,7 +26,7 @@
                 word-spacing: 150px;
             }
             .im{
-                font-size: 40px;
+                font-size: 40px;               
             }
             .pr{
                 display: flex;
@@ -28,14 +35,18 @@
                 padding-left: 25px;
                 padding-right: 25px;
                 text-align: center;
+                flex: 1;
             }
-                .copyright{
-                background-color: lightgray;
+            .footer {
+                background-color: #333;
+                color: #fff;
                 text-align: center;
-            }
+                padding: 20px;
+      }
         </style>
     </head>
     <body>
+        <div class="wrapper">
         <div class="logo">
             <img class="ii" src="image_2023-04-07_16-24-26.png" alt="">
             <h1>Secondary 1: A10</h1>
@@ -48,7 +59,7 @@
             <a href="Photo.html">Photo-Gallary</a>
             <a href="work.html">Projects</a>
         </div>
-        <div class="about">
+            <div class="about">
         <p class="im">About Us</p>
         <p>
 Welcome to S1A10 from Concept-X International School (CIS), our online learning community. We are a group of secondary one students from CIS and we are all about being creative and thinking outside of the box. Our teachers are really great and they know that just memorizing things will not help much in the actual problems in our real world. That is why they encourage us to ask more questions, think creatively, and apply what we learn to real-life situations.<br>
@@ -56,10 +67,11 @@ Welcome to S1A10 from Concept-X International School (CIS), our online learning 
 At CIS, we believe that true learning goes beyond just knowing facts. It is about learning how to think for ourselves, challenge assumptions, and come up with new solutions to solve the problems. By being a part of S1A10, we are learning how to be more creative, innovative as well as confident in ourselves.<br>
 <br>
 We are truly excited to be a part of this community and to see what we can accomplish together. If you are interested in joining us, come and check out our S1A10 @ CIS and see what we are all about.</p><br>
-</div>
-        <div class="copyright">
+            </div>
+        <div class="footer">
        <p 
-        <strong> © Copyright 2023</strong>. All Rights Reserved & Designed by <a href="#">Shine Khant Kyaw</a>
+        <strong> © Copyright 2023</strong>. All Rights Reserved & Designed by Shine Khant Kyaw
         </div>
-</div>
+        </div>
+        </div>
     </body>
